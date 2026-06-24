@@ -1,0 +1,6 @@
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public class com.razorpay.** {*;}
+-keep class com.google.android.gms.wallet.** {*;}
+-dontwarn com.razorpay.**
+-dontwarn com.google.android.gms.wallet.**

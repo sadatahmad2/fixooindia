@@ -1,0 +1,34 @@
+Building com.example.fixoo for simulator (ios)...
+Running Xcode build...                                          
+Xcode build done.                                            8.1s
+Failed to build iOS app
+Error output from Xcode build:
+↳
+    ** BUILD FAILED **
+
+
+Xcode's output:
+↳
+    Writing result bundle at path:
+    	/var/folders/gm/jpkvt3rx2bg3tvj8mdrzcyyw0000gn/T/flutter_tools.lcPTPC/flutter_ios_build_temp_diroEA3lo/temporary_xcresult_bundle
+
+    lib/screens/tracking_screen.dart:283:19: Error: Can't find ']' to match '['.
+            children: [
+                      ^
+    lib/screens/tracking_screen.dart:284:14: Error: Expected ')' before this.
+            child: Column(
+                 ^
+    lib/screens/tracking_screen.dart:284:9: Error: The getter 'child' isn't defined for the type '_TrackingScreenState'.
+     - '_TrackingScreenState' is from 'package:fixoo/screens/tracking_screen.dart' ('lib/screens/tracking_screen.dart').
+    Try correcting the name to the name of an existing getter, or defining a getter or field named 'child'.
+            child: Column(
+            ^^^^^
+    Target kernel_snapshot_program failed: Exception
+    Failed to package /Users/apple/StudioProjects/Fixoo.
+    Command PhaseScriptExecution failed with a nonzero exit code
+    warning: no rule to process file '/Users/apple/.pub-cache/hosted/pub.dev/geocoding_ios-3.1.0/ios/geocoding_ios/Sources/geocoding_ios/PrivacyInfo.xcprivacy' of type 'text.xml' for architecture 'arm64' (in target 'geocoding_ios' from project 'Pods')
+    warning: no rule to process file '/Users/apple/.pub-cache/hosted/pub.dev/geocoding_ios-3.1.0/ios/geocoding_ios/Sources/geocoding_ios/PrivacyInfo.xcprivacy' of type 'text.xml' for architecture 'x86_64' (in target 'geocoding_ios' from project 'Pods')
+    note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'Runner' from project 'Runner')
+    note: Run script build phase 'Thin Binary' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'Runner' from project 'Runner')
+
+Encountered error while building for simulator.

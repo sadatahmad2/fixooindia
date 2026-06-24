@@ -1,0 +1,173 @@
+Building com.example.fixoo for simulator (ios)...
+Running Xcode build...                                          
+Xcode build done.                                            7.7s
+Failed to build iOS app
+Error output from Xcode build:
+↳
+    ** BUILD FAILED **
+
+
+Xcode's output:
+↳
+    Writing result bundle at path:
+    	/var/folders/gm/jpkvt3rx2bg3tvj8mdrzcyyw0000gn/T/flutter_tools.wXAXT0/flutter_ios_build_temp_dir81mHMp/temporary_xcresult_bundle
+
+    lib/screens/tracking_screen.dart:286:19: Error: Expected ';' after this.
+                      ),
+                      ^
+    lib/screens/tracking_screen.dart:286:20: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                      ),
+                       ^
+    lib/screens/tracking_screen.dart:286:20: Error: Unexpected token ';'.
+                      ),
+                       ^
+    lib/screens/tracking_screen.dart:288:38: Error: Expected ';' after this.
+                const SizedBox(height: 25),
+                                         ^
+    lib/screens/tracking_screen.dart:288:39: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                const SizedBox(height: 25),
+                                          ^
+    lib/screens/tracking_screen.dart:288:39: Error: Unexpected token ';'.
+                const SizedBox(height: 25),
+                                          ^
+    lib/screens/tracking_screen.dart:310:13: Error: Expected ';' after this.
+                ),
+                ^
+    lib/screens/tracking_screen.dart:310:14: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                ),
+                 ^
+    lib/screens/tracking_screen.dart:310:14: Error: Unexpected token ';'.
+                ),
+                 ^
+    lib/screens/tracking_screen.dart:312:38: Error: Expected ';' after this.
+                const SizedBox(height: 25),
+                                         ^
+    lib/screens/tracking_screen.dart:312:39: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                const SizedBox(height: 25),
+                                          ^
+    lib/screens/tracking_screen.dart:312:39: Error: Unexpected token ';'.
+                const SizedBox(height: 25),
+                                          ^
+    lib/screens/tracking_screen.dart:325:13: Error: Expected ';' after this.
+                ),
+                ^
+    lib/screens/tracking_screen.dart:325:14: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                ),
+                 ^
+    lib/screens/tracking_screen.dart:325:14: Error: Unexpected token ';'.
+                ),
+                 ^
+    lib/screens/tracking_screen.dart:327:38: Error: Expected ';' after this.
+                const SizedBox(height: 30),
+                                         ^
+    lib/screens/tracking_screen.dart:327:39: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                const SizedBox(height: 30),
+                                          ^
+    lib/screens/tracking_screen.dart:327:39: Error: Unexpected token ';'.
+                const SizedBox(height: 30),
+                                          ^
+    lib/screens/tracking_screen.dart:358:13: Error: Expected ';' after this.
+                ),
+                ^
+    lib/screens/tracking_screen.dart:358:14: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                ),
+                 ^
+    lib/screens/tracking_screen.dart:358:14: Error: Unexpected token ';'.
+                ),
+                 ^
+    lib/screens/tracking_screen.dart:359:38: Error: Expected ';' after this.
+                const SizedBox(height: 40),
+                                         ^
+    lib/screens/tracking_screen.dart:359:39: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+                const SizedBox(height: 40),
+                                          ^
+    lib/screens/tracking_screen.dart:359:39: Error: Unexpected token ';'.
+                const SizedBox(height: 40),
+                                          ^
+    lib/screens/tracking_screen.dart:360:11: Error: Expected an identifier, but got ']'.
+    Try inserting an identifier before ']'.
+              ],
+              ^
+    lib/screens/tracking_screen.dart:359:39: Error: Expected ';' after this.
+                const SizedBox(height: 40),
+                                          ^
+    lib/screens/tracking_screen.dart:360:11: Error: Unexpected token ';'.
+              ],
+              ^
+    lib/screens/tracking_screen.dart:360:12: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+              ],
+               ^
+    lib/screens/tracking_screen.dart:360:11: Error: Expected ';' after this.
+              ],
+              ^
+    lib/screens/tracking_screen.dart:360:12: Error: Unexpected token ';'.
+              ],
+               ^
+    lib/screens/tracking_screen.dart:361:9: Error: Expected an identifier, but got ')'.
+    Try inserting an identifier before ')'.
+            ),
+            ^
+    lib/screens/tracking_screen.dart:360:12: Error: Expected ';' after this.
+              ],
+               ^
+    lib/screens/tracking_screen.dart:361:9: Error: Unexpected token ';'.
+            ),
+            ^
+    lib/screens/tracking_screen.dart:361:10: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+            ),
+             ^
+    lib/screens/tracking_screen.dart:361:9: Error: Expected ';' after this.
+            ),
+            ^
+    lib/screens/tracking_screen.dart:361:10: Error: Unexpected token ';'.
+            ),
+             ^
+    lib/screens/tracking_screen.dart:362:7: Error: Expected an identifier, but got ')'.
+    Try inserting an identifier before ')'.
+          ),
+          ^
+    lib/screens/tracking_screen.dart:361:10: Error: Expected ';' after this.
+            ),
+             ^
+    lib/screens/tracking_screen.dart:362:7: Error: Unexpected token ';'.
+          ),
+          ^
+    lib/screens/tracking_screen.dart:362:8: Error: Expected an identifier, but got ','.
+    Try inserting an identifier before ','.
+          ),
+           ^
+    lib/screens/tracking_screen.dart:362:7: Error: Expected ';' after this.
+          ),
+          ^
+    lib/screens/tracking_screen.dart:362:8: Error: Unexpected token ';'.
+          ),
+           ^
+    lib/screens/tracking_screen.dart:363:5: Error: Expected an identifier, but got ')'.
+    Try inserting an identifier before ')'.
+        );
+        ^
+    lib/screens/tracking_screen.dart:362:8: Error: Expected ';' after this.
+          ),
+           ^
+    lib/screens/tracking_screen.dart:363:5: Error: Unexpected token ';'.
+        );
+        ^
+    Target kernel_snapshot_program failed: Exception
+    Failed to package /Users/apple/StudioProjects/Fixoo.
+    Command PhaseScriptExecution failed with a nonzero exit code
+    warning: no rule to process file '/Users/apple/.pub-cache/hosted/pub.dev/geocoding_ios-3.1.0/ios/geocoding_ios/Sources/geocoding_ios/PrivacyInfo.xcprivacy' of type 'text.xml' for architecture 'arm64' (in target 'geocoding_ios' from project 'Pods')
+    warning: no rule to process file '/Users/apple/.pub-cache/hosted/pub.dev/geocoding_ios-3.1.0/ios/geocoding_ios/Sources/geocoding_ios/PrivacyInfo.xcprivacy' of type 'text.xml' for architecture 'x86_64' (in target 'geocoding_ios' from project 'Pods')
+    note: Run script build phase 'Thin Binary' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'Runner' from project 'Runner')
+    note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'Runner' from project 'Runner')
+
+Encountered error while building for simulator.
